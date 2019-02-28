@@ -7,11 +7,7 @@ import org.jsoup.select.Elements;
 import java.io.IOException;
 
 public class ExtraerDatoCVLAC {
-    /**
-     *
-     * @param url
-     * @return Investigador
-     */
+
     public static Investigador  getDatos(String url) {
 
         Investigador investigador = null;
@@ -32,7 +28,7 @@ public class ExtraerDatoCVLAC {
             //Se crea el objeto investigador
             investigador = new Investigador(nombre, nacionalidad,sexo,true);
 
-        } catch (Exception e) {
+        } catch (IOException e) {
 
             e.printStackTrace();
 
