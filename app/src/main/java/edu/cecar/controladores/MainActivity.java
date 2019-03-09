@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     private TextInputEditText teSexo;
     private TextInputEditText teCategoria;
 
-    // String url = "http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000733180";
+    // String url = "http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000787132"; namuel
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
